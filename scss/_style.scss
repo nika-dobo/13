@@ -1,0 +1,28 @@
+.hed1 {
+  @include mergin;
+  .box {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav {
+    width: 319px;
+    border: 2px solid red;
+    ul {
+      @include hed;
+      display: flex;
+      justify-content: space-between;
+      .img {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+.s1 {
+  margin-top: 76px;
+  @include mergin;
+  .d1 {
+  }
+}

@@ -1,0 +1,13 @@
+@mixin hed {
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin mergin {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
